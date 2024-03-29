@@ -64,6 +64,15 @@ namespace ExceptionHandlingExample
 
             //Print1();
             //Print2();
+
+            int[] arr = new int[7];
+            arr[0] = 1;
+            arr[1] = 5;
+
+            MyClass[] arr1 = new MyClass[6];
+            arr1[0] = new MyClass() { };
+
+            List<MyClass> li = new List<MyClass>();
         }
 
         public static void Add(int a , int b)
@@ -93,6 +102,8 @@ namespace ExceptionHandlingExample
         {
             for (int i = 50; i < 75; i++)
             {
+                
+
                 Console.WriteLine($"Print Value2- {i}");
             }
         }
